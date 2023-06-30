@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+* {
+    font-family: "Lato", sans-serif;
+}
+
+.paragraph{
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    width: 328px;
+    height: 51px;
+    color: #fff;
+}
+    
+.theme {
+    background-color: #ec5242;
+    background-image: url('./images/yellow.jpg');
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
+        color: transparent;
+        -webkit-background-clip: text;
+        font-family: "Lato", sans-serif;
+}
+
+.date{
+    font-family: Gothic A1;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: -0.08em;
+    text-align: left;
+    color: #fff;
+
+}
+.venue{
+    font-family: Gothic A1;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #fff;    
+}
+.main{
+    width: Fixed 375px;
+    height: Fixed 662px;
+    top: 549p;
+    padding: 11px 12px 11px 12px;
+    gap: 10px;
+    background-color:  #272727;
+    background-image: url("./images/abstractbg.svg");
+  
+}
+.mainP{
+    height: 17px;
+    gap: 15px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: aliceblue
+       
+}
+.mainPP{
+display:flex;
+flex-direction: row;
+
+}
+.lec{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Lato;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    width: 30%;
+    height: 20vh;
+    margin-left: 30px;
+    color: #ec5242; 
+
+}
+.lecP{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        font-family: Lato;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0.09em;
+        text-align: left;
+        width: 50%;
+        color: antiquewhite;
+}
+.btn1{
+    height:  68px;
+    padding: 20px 50px 20px 50px;
+    gap: 10px;
+    font-family: Lato;
+font-size: 16px;
+font-weight: 900;
+line-height: 28px;
+letter-spacing: -0.01em;
+text-align: left;
+
+}
+.imge{
+    width: 20%;
+    height: 20%;
+}
+.greetings{
+        font-family: "Lato", sans-serif;
+        font-size: 20px; 
+}
+.homepage{
+ background-image: url(./images/agric\ summit\ 5.webp);
+ height: 486px;   
+}
+
+.spk-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.spk {
+    display: flex;
+}
+
+.spk-img {
+    width: 150px;
+    height: 150px;
+    padding: 0 0;
+}
+
+.more-btn {
+    padding: 10px;
+    width: 61%;
+    margin-left: 20%;
+    border: 1px #ec5242 solid;
+    background-color: #fff;
+    color: #000;
+}
+.more-btn:hover {
+    border: 1px #fff solid;
+    background-color: #ec5242;
+    color: #fff;
+}
+
+.speakername {
+    margin-bottom: 7px;
+    font-family: "Lato", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.profile {
+    color: #ec5242;
+    font-family: Lato;
+font-size: 12px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: -0.02em;
+text-align: left;
+
+}
+
+.program {
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.06em;
+    text-align: left;    
+}
+
+.spk-details {
+    margin-top: -20px;
+}
+
+@media screen and (min-width: 720px) {
+    .paragraph{
+        font-family: Lato;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        width: 100%;
+        height: 10%;
+        
+    }
+        
+    .theme {
+            font-size: 50px;
+    }
+    
+    .date{
+font-family: Gothic A1;
+font-size: 42px;
+font-weight: 900;
+letter-spacing: -0.08em;
+text-align: left;
+
+    }
+    .venue{
+        font-family: Gothic A1;
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        text-align: left;
+           
+    }
+    .main{
+        width: Fixed 375px;
+        height: Fixed 662px;
+        top: 549p;
+        padding: 11px 12px 11px 12px;
+        gap: 10px;
+        background-color:  #272727;
+        background-image: url("./images/abstractbg.svg");
+      
+    }
+    .mainP{
+        height: 17px;
+        gap: 15px;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: aliceblue
+           
+    }
+    .mainPP{
+        flex-direction: column;
+        padding: 1rem 0;
+        text-align: center;
+    
+    }
+    .lec{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: Lato;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        width: 30%;
+        height: 20vh;
+        margin-left: 30px;
+        color: #ec5242; 
+    
+    }
+    .lecP{
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            font-family: Lato;
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 15px;
+            letter-spacing: 0.09em;
+            text-align: left;
+            width: 50%;
+            color: antiquewhite;
+    }
+    .btn1{
+        height:  68px;
+        padding: 20px 50px 20px 50px;
+        gap: 10px;
+        font-family: Lato;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    
+    }
+    .imge{
+        width: 20%;
+        height: 20%;
+    }
+    .greetings{
+            font-family: "Lato", sans-serif;
+            font-size: 20px; 
+    }
+    .homepage{
+     background-image: url(./images/agric\ summit\ 5.webp);
+     height: 887px; 
+     background-repeat: no-repeat;  
+     background-size: 100%;
+    }
+    
+    .spk-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        padding: 1rem 5rem;
+        height: auto;
+    }
+    
+    .spk {
+        display: flex;
+    }
+    
+    .spk-img {
+        width: 150px;
+        height: 150px;
+        padding: 0 0;
+    }
+    
+    .more-btn {
+       display: none;
+    }
+  
+    
+
+    .MP {
+        display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    }
+    .speakername {
+        margin-bottom: 7px;
+        font-family: "Lato", sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    
+    .profile {
+        color: #ec5242;
+        font-family: Lato;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    
+    }
+    
+    .program {
+        font-family: Lato;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: -0.06em;
+        text-align: left;    
+    }
+    
+    .spk-details {
+        margin-top: -20px;
+    }   
+}
