@@ -30,7 +30,7 @@ For more information on the importance of a professional README for your reposit
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="LOGO.jpeg" alt="logo" width="140"  height="auto" />
+  <img src="./images/LOGO.jpeg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>AGRICULTURAL SUMMIT 2023</b></h3>
@@ -98,7 +98,7 @@ For more information on the importance of a professional README for your reposit
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://danny-imo.github.io/Capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
