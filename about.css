@@ -1,0 +1,312 @@
+.fa {
+  display: block;
+}
+
+.gtg {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.topic {
+  color: #ec5242;
+  font-size: 50px;
+  text-align: center;
+}
+
+.pg {
+  text-align: center;
+  color: black;
+  border: 3px solid #fff;
+  box-shadow: 0 5px 5px rgb(222 222 222 / 82%), 0 5px 5px rgb(222 222 222 / 82%);
+  padding: 20px 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 40px;
+  width: 90%;
+}
+
+.details {
+  text-align: center;
+}
+
+.d-link {
+  color: #000;
+  font-weight: 900;
+}
+
+.agro-theme {
+  text-align: center;
+}
+
+.agro-talk {
+  text-align: center;
+}
+
+.b-logo {
+  height: auto !important;
+  margin-left: 35%;
+}
+
+.past-events {
+  text-align: center;
+}
+
+.event-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+
+.event-d {
+  color: #fff;
+  position: relative;
+}
+
+.event-cover {
+  width: 100%;
+  padding: 4rem 0;
+  background-color: rgba(236, 82, 66, 0.7);
+}
+
+.event-1 {
+  background-image: url(./images/agric\ summit.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.event-2 {
+  background-image: url(./images/agric\ summit\ 4.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.event-p {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+footer {
+  display: flex;
+  background-color: #524f4f;
+  margin-top: 50px;
+}
+
+.footer-img {
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.closeBtn {
+  margin-left: 90%;
+}
+
+.fab {
+  width: 100%;
+}
+
+.partners {
+  display: none;
+}
+
+.main-logo {
+  display: none;
+}
+
+.head-links {
+  display: none;
+}
+
+.nav-jsi a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.aboutpg {
+  background-image: url(./images/agric\ summit\ 2.webp);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100%;
+}
+
+@media screen and (min-width: 720px) {
+  .nav-ul {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-right: 15%;
+  }
+
+  .nav-li {
+    list-style-type: none;
+  }
+
+  .news {
+    border: 5px #ec5242 solid;
+    padding: 2px 20px;
+    margin-top: -5px;
+  }
+
+  .fa {
+    display: none;
+  }
+
+  .gtg {
+    font-family: "Lato", sans-serif;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .topic {
+    color: #ec5242;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .pg {
+    text-align: center;
+    color: black;
+    border: 3px solid #fff;
+    box-shadow: 0 5px 5px rgb(222 222 222 / 82%), 0 5px 5px rgb(222 222 222 / 82%);
+    padding: 20px 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 40px;
+    margin-left: 4%;
+    width: 90%;
+  }
+
+  .details {
+    text-align: center;
+  }
+
+  .d-link {
+    color: #000;
+    font-weight: 900;
+  }
+
+  .agro-theme {
+    text-align: center;
+  }
+
+  .agro-talk {
+    text-align: center;
+  }
+
+  .b-logo {
+    height: auto !important;
+    margin-left: 43%;
+  }
+
+  .past-events {
+    text-align: center;
+  }
+
+  .event-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 70px;
+  }
+
+  .event-d {
+    color: #fff;
+    position: relative;
+  }
+
+  .event-cover {
+    width: 100%;
+    padding: 4rem 0;
+    background-color: rgba(236, 82, 66, 0.7);
+  }
+
+  .event-1 {
+    background-image: url(./images/agric\ summit.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .event-2 {
+    background-image: url(./images/agric\ summit\ 4.webp);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .event-p {
+    font-size: 14px;
+    font-weight: 900;
+  }
+
+  footer {
+    display: flex;
+    background-color: #524f4f;
+    margin-top: 50px;
+  }
+
+  .footer-img {
+    width: 43%;
+    margin-left: 20px;
+    margin-bottom: -4px;
+  }
+
+  .footer-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 226px;
+  }
+
+  header {
+    background-color: #000;
+  }
+
+  .head-links {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-right: 200px;
+    margin-top: -8px;
+  }
+
+  .fab {
+    color: #fff;
+  }
+
+  .head-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .partners {
+    background-color: #272727;
+    display: none;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: -50px;
+  }
+
+  .partners img {
+    width: 10%;
+  }
+
+  .stub {
+    width: 2%;
+  }
+
+  .main-logo {
+    margin-bottom: -40px;
+    width: 4%;
+    margin-top: -16px;
+    display: block;
+  }
+}
