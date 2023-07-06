@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
 .fa {
   display: block;
 }
@@ -10,8 +13,15 @@
 
 .topic {
   color: #ec5242;
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.agri-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .pg {
@@ -39,6 +49,7 @@
 
 .agro-theme {
   text-align: center;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .agro-talk {
@@ -47,7 +58,10 @@
 
 .b-logo {
   height: auto !important;
-  margin-left: 35%;
+}
+
+h4 {
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .past-events {
@@ -91,7 +105,7 @@
 
 footer {
   display: flex;
-  background-color: #524f4f;
+  background-color: #fff;
   margin-top: 50px;
 }
 
@@ -114,8 +128,57 @@ footer {
   width: 100%;
 }
 
+.partners-section {
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 170px;
+  margin-bottom: -50px;
+  margin-left: -8px;
+  margin-top: 30px;
+  margin-right: -7px;
+}
+
+.partners-head {
+  color: #d3d3d3;
+}
+
+.line {
+  width: 2%;
+  height: 2px;
+  background-color: #e25240;
+  margin-top: -7px;
+  margin-bottom: 20px;
+}
+
+.line1 {
+  width: 2%;
+  height: 2px;
+  background-color: #e25240;
+  margin-top: -7px;
+  margin-bottom: 20px;
+  margin-left: 49%;
+}
+
+.line2 {
+  width: 2%;
+  height: 2px;
+  background-color: #e25240;
+  margin-top: -7px;
+  margin-bottom: 20px;
+  margin-left: 49%;
+}
+
 .partners {
-  display: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: -50px;
+}
+
+.partners img {
+  width: 10%;
 }
 
 .main-logo {
@@ -143,7 +206,7 @@ footer {
     display: flex;
     gap: 60px;
     justify-content: flex-end;
-    margin-right: 15%;
+    margin-right: 10%;
   }
 
   .nav-li {
@@ -164,13 +227,17 @@ footer {
     background-image: url(./images/agric\ summit\ 2.webp);
     background-repeat: no-repeat;
     width: 100%;
-    background-size: 100%;
+    background-size: 155%;
   }
 
   .gtg {
     font-family: "Lato", sans-serif;
     font-size: 35px;
     text-align: center;
+  }
+
+  h4 {
+    font-family: 'COCOGOOSE', sans-serif;
   }
 
   .topic {
@@ -182,6 +249,7 @@ footer {
     margin-top: -4px;
     padding-top: 4%;
     margin-bottom: 80px;
+    font-family: 'COCOGOOSE', sans-serif;
   }
 
   .pg {
@@ -210,6 +278,7 @@ footer {
 
   .agro-theme {
     text-align: center;
+    font-family: 'COCOGOOSE', sans-serif;
   }
 
   .agro-talk {
@@ -218,7 +287,6 @@ footer {
 
   .b-logo {
     height: auto !important;
-    margin-left: 43%;
   }
 
   .past-events {
@@ -262,9 +330,12 @@ footer {
   }
 
   footer {
+    margin-right: -8px;
     display: flex;
-    background-color: #524f4f;
+    background-color: #272a31;
     margin-top: 50px;
+    margin-left: -7px;
+    margin-bottom: -10px;
   }
 
   .footer-img {
@@ -276,7 +347,11 @@ footer {
   .footer-div {
     display: flex;
     flex-direction: column;
-    margin-left: 226px;
+    margin-left: -40px;
+  }
+
+  .img-div {
+    margin-left: 300px;
   }
 
   header {
@@ -301,16 +376,8 @@ footer {
     color: #fff;
   }
 
-  .partners {
-    background-color: #272727;
+  .partners-section {
     display: none;
-    gap: 20px;
-    justify-content: center;
-    margin-bottom: -50px;
-  }
-
-  .partners img {
-    width: 10%;
   }
 
   .stub {

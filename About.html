@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-eTrSftZ6n9d5hvWbI5bvm6Hs2g2CQy2bX7X9+2zZ53D4LZ1a+Cy2OoEZ0XyNzlfj" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -62,7 +63,9 @@
     <p class="agro-talk">The Logo of the 2023 agricultural summit was determined during the farm stead display
         <br>through the logo competition from 8 August to 7 January.
     </p>
-    <img src="./images/LOGO.jpeg" alt="agri-logo" class="b-logo">
+   <div class="agri-div">
+       <img src="./images/LOGO.jpeg" alt="agri-logo" class="b-logo">
+   </div>
     <hr>
     <div class="past-events">
     <h4>See past Agric Sumits</h4>
@@ -87,14 +90,20 @@
             </div>
 </div>
     </section>
-    <section class="partners">
-        <img src="images/google.png" alt="">
-        <img src="images/EA-SPORT.png" alt="">
-        <img src="images/samsung_2022-logo.png" alt="">
-        <img src="images/NASA.png" alt="" class="stub">
-    </section>
+    <section class="partners-section">
+        <div class="flex">
+          <h4 class="partners-head">Partners</h4>
+        </div>
+        <div class="line"></div>
+        <div class="partners">
+          <img src="images/google.png" alt="">
+          <img src="images/EA-SPORT.png" alt="">
+          <img src="images/samsung_2022-logo.png" alt="">
+          <img src="images/NASA.png" alt="" class="stub">
+        </div>
+      </section>
     <footer class="about-footer">
-        <div><img src="./images/LOGO.jpeg" alt="" class="footer-img"></div>
+        <div class="img-div"><img src="./images/LOGO.jpeg" alt="" class="footer-img"></div>
         <div class="footer-div">
               <p>Agric Summit 2023</p>
         <p>All rights reserved A2K23S</p>
@@ -103,3 +112,4 @@
 </body>
 <script src="index.js"></script>
 </html>
+

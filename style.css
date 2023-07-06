@@ -1,8 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
 @import url("https://fonts.googleapis.com/css?family=Lato");
-
-* {
-  font-family: "Lato", sans-serif;
-}
 
 .paragraph {
   font-family: "Lato", sans-serif;
@@ -11,19 +8,14 @@
   line-height: 17px;
   letter-spacing: -0.01em;
   text-align: left;
-
-  /* width: 328px; */
   height: 80px;
   color: #fff;
 }
 
 .theme {
-  background-color: #ec5242;
-  -webkit-text-fill-color: rgba(0, 0, 0, 0);
   color: #ec5242;
-  -webkit-background-clip: text;
-  font-family: "Lato", sans-serif;
-  font-size: 41px;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 31px;
 }
 
 .date {
@@ -57,7 +49,7 @@
 .mainP {
   height: 17px;
   gap: 15px;
-  font-family: "Lato", sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -92,7 +84,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-family: "Lato", sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
   font-size: 11px;
   font-weight: 700;
   line-height: 25px;
@@ -139,7 +131,7 @@
 }
 
 .greetings {
-  font-family: "Lato", sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
   font-size: 20px;
   color: #e25240;
 }
@@ -160,6 +152,7 @@
 
 .spker {
   text-align: center;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .spk-container {
@@ -183,9 +176,18 @@
   padding: 10px;
   width: 61%;
   margin-left: 20%;
-  border: 1px #ec5242 solid;
+  border: 1px #d3d3d3 solid;
   background-color: #fff;
   color: #000;
+}
+
+.fas {
+  padding-left: 10px;
+  color: #e25240;
+}
+
+.fas:hover {
+  color: #fff;
 }
 
 .more-btn:hover {
@@ -244,15 +246,11 @@
   display: none;
 }
 
-.hidden {
-  display: none;
-}
-
 footer {
   display: none;
 }
 
-.partners {
+.partners-section {
   display: none;
 }
 
@@ -308,6 +306,7 @@ footer {
 
   .theme {
     font-size: 50px;
+    font-family: 'COCOGOOSE', sans-serif;
     width: 52%;
   }
 
@@ -345,7 +344,7 @@ footer {
   .mainP {
     height: 17px;
     gap: 15px;
-    font-family: "Lato", sans-serif;
+    font-family: 'COCOGOOSE', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
@@ -361,19 +360,27 @@ footer {
     background-color: rgba(255, 255, 255, 0.122);
   }
 
+  .mainPP:hover {
+    border: 2px solid #fff;
+  }
+
   .lec {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-family: "Lato", sans-serif;
+    font-family: 'COCOGOOSE', sans-serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 25px;
     letter-spacing: -0.01em;
     text-align: center;
-    width: 171px;
+    width: 70%;
     height: 0;
     color: #ec5242;
+  }
+
+  .fas {
+    display: none;
   }
 
   .lecP {
@@ -394,20 +401,20 @@ footer {
   .imge {
     width: 90px;
     height: 44%;
-    margin-left: 70px;
+    margin-left: 25%;
   }
 
   .greetings {
-    font-family: "Lato", sans-serif;
+    font-family: 'COCOGOOSE', sans-serif;
     font-size: 35px;
     color: #ec5242;
   }
 
   .homepage {
     background-image: url(./images/agric\ summit\ 5.webp);
-    height: 887px;
+    height: 1024px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 220%;
   }
 
   .spk-container {
@@ -432,9 +439,13 @@ footer {
     display: none;
   }
 
+  .more-btn::after {
+    display: none;
+  }
+
   .MP {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 1rem;
     width: 100%;
   }
@@ -483,10 +494,11 @@ footer {
 
   .nav-ul {
     display: flex;
-    gap: 60px;
+    gap: 40px;
     justify-content: flex-end;
-    margin-right: 15%;
-    margin-top: -20px;
+    margin-right: 10%;
+    margin-top: 17px;
+    margin-bottom: 4px;
   }
 
   .nav-li {
@@ -512,6 +524,10 @@ footer {
     display: none;
   }
 
+  .less-btn::after {
+    display: none;
+  }
+
   .hidden {
     display: block;
   }
@@ -531,11 +547,52 @@ footer {
   .footer-div {
     display: flex;
     flex-direction: column;
-    margin-left: 226px;
+    margin-left: -40px;
+  }
+
+  .img-div {
+    margin-left: 300px;
+  }
+
+  .partners-section {
+    background-color: #272a31;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 170px;
+  }
+
+  .partners-head {
+    color: #d3d3d3;
+  }
+
+  .line {
+    width: 2%;
+    height: 2px;
+    background-color: #e25240;
+    margin-top: -7px;
+    margin-bottom: 20px;
+  }
+
+  .line1 {
+    width: 2%;
+    height: 2px;
+    background-color: #e25240;
+    margin-top: -7px;
+    margin-bottom: 20px;
+    margin-left: 49%;
+  }
+
+  .line2 {
+    width: 2%;
+    height: 2px;
+    background-color: #e25240;
+    margin-top: -7px;
+    margin-bottom: 20px;
+    margin-left: 49%;
   }
 
   .partners {
-    background-color: #272727;
     display: flex;
     gap: 20px;
     justify-content: center;

@@ -1,31 +1,68 @@
 const hambugger = document.querySelector('.ham');
 const nav = document.querySelector('.buger');
 const close = document.querySelector('.closeBtn');
-
 hambugger.addEventListener('click', () => {
   nav.style.display = 'block';
 });
-
 close.addEventListener('click', () => {
   nav.style.display = 'none';
 });
-
-const hidden = document.querySelectorAll('.hidden');
-const moreBtn = document.querySelector('.more-btn');
-const lessBtn = document.querySelector('.less-btn');
-
-moreBtn.addEventListener('click', () => {
-  hidden.forEach((hide) => {
-    hide.style.display = 'block';
+const more = document.querySelector('.more-btn');
+const speakers = document.querySelector('.spk-container');
+const speakerList = [
+  {
+    image: 'images/pho12.jpg',
+    name: 'Leonard Peabody',
+    profile: 'Berkman Professor of Entrepreneurial Legal Studies',
+    program: 'Benkler studies commons-based peer production, published his seminal book The Wealth of Netprogram in 2016',
+  },
+  {
+    image: 'images/photo 1.jpg',
+    name: 'Helen Paul',
+    profile: 'Berkman Professor of Entrepreneurial Legal Studies',
+    program: 'Benkler studies commons-based peer production, published his seminal book The Wealth of Netprogram in 2016',
+  },
+  {
+    image: 'images/photo2.jpg',
+    name: 'Christian Parker',
+    profile: 'Berkman Professor of Entrepreneurial Legal Studies',
+    program: 'Benkler studies commons-based peer production, published his seminal book The Wealth of Netprogram in 2016',
+  },
+  {
+    image: 'images/photo4.jpg',
+    name: 'Jennifer West',
+    profile: 'Jenifer West of Entrepreneurial Legal Studies',
+    program: 'Benkler studies commons-based peer production, published his seminal book The Wealth of Netprogram in 2016',
+  },
+];
+function showSpeakers() {
+  speakerList.forEach((mySpeakers) => {
+    const hiddenSpeakers = document.createElement('div');
+    hiddenSpeakers.classList.add('hidden');
+    hiddenSpeakers.innerHTML = `
+      <div class="spk">
+        <div class="picture">
+          <img src="${mySpeakers.image}" alt="" class="spk-img">
+        </div>
+        <div class="spk-details">
+          <h5 class="speakername">${mySpeakers.name}</h5>
+          <p class="profile">${mySpeakers.profile}</p>
+          <p class="program">${mySpeakers.program}</p>
+        </div>
+      </div>
+    `;
+    speakers.appendChild(hiddenSpeakers);
   });
-  moreBtn.style.display = 'none';
-  lessBtn.style.display = 'block';
-});
-
-lessBtn.addEventListener('click', () => {
-  hidden.forEach((hide) => {
-    hide.style.display = 'none';
-  });
-  lessBtn.style.display = 'none';
-  moreBtn.style.display = 'block';
-});
+}
+function handleScreenSize() {
+  const screenWidth = window.innerWidth;
+  if (screenWidth < 768) {
+    more.addEventListener('click', showSpeakers);
+    more.style.display = 'block';
+  } else {
+    more.style.display = 'none';
+    showSpeakers();
+  }
+}
+window.addEventListener('DOMContentLoaded', handleScreenSize);
+window.addEventListener('resize', handleScreenSize);
