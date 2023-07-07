@@ -17,6 +17,18 @@ const speakerList = [
     program: 'Benkler studies commons-based peer production, published his seminal book The Wealth of Netprogram in 2016',
   },
   {
+    image: 'images/pho12.jpg',
+    name: 'Leonard Peabody',
+    profile: 'Berkman Professor of Entrepreneurial Legal Studies',
+    program: 'Benkler studies commons-based peer production, published his seminal book The Wealth of Netprogram in 2016',
+  },
+  {
+    image: 'images/pho12.jpg',
+    name: 'Leonard Peabody',
+    profile: 'Berkman Professor of Entrepreneurial Legal Studies',
+    program: 'Benkler studies commons-based peer production, published his seminal book The Wealth of Netprogram in 2016',
+  },
+  {
     image: 'images/photo 1.jpg',
     name: 'Helen Paul',
     profile: 'Berkman Professor of Entrepreneurial Legal Studies',
@@ -35,8 +47,11 @@ const speakerList = [
     program: 'Benkler studies commons-based peer production, published his seminal book The Wealth of Netprogram in 2016',
   },
 ];
+let showAllSpeakers = false;
 function showSpeakers() {
-  speakerList.forEach((mySpeakers) => {
+  speakers.innerHTML = '';
+  const speakersToDisplay = showAllSpeakers ? speakerList : speakerList.slice(0, 2);
+  speakersToDisplay.forEach((mySpeakers) => {
     const hiddenSpeakers = document.createElement('div');
     hiddenSpeakers.classList.add('hidden');
     hiddenSpeakers.innerHTML = `
@@ -57,10 +72,17 @@ function showSpeakers() {
 function handleScreenSize() {
   const screenWidth = window.innerWidth;
   if (screenWidth < 768) {
-    more.addEventListener('click', showSpeakers);
     more.style.display = 'block';
+    showAllSpeakers = false;
+    showSpeakers();
+    more.addEventListener('click', () => {
+      showAllSpeakers = true;
+      showSpeakers();
+      more.style.display = 'none';
+    });
   } else {
     more.style.display = 'none';
+    showAllSpeakers = true;
     showSpeakers();
   }
 }

@@ -13,9 +13,9 @@
 
 .topic {
   color: #ec5242;
-  font-size: 30px;
+  font-size: 27px;
   text-align: center;
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: "Cocogoose", sans-serif;
 }
 
 .agri-div {
@@ -49,7 +49,7 @@
 
 .agro-theme {
   text-align: center;
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: "Cocogoose", sans-serif;
 }
 
 .agro-talk {
@@ -61,7 +61,7 @@
 }
 
 h4 {
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: "Cocogoose", sans-serif;
 }
 
 .past-events {
@@ -237,7 +237,7 @@ footer {
   }
 
   h4 {
-    font-family: 'COCOGOOSE', sans-serif;
+    font-family: "Cocogoose", sans-serif;
   }
 
   .topic {
@@ -249,7 +249,7 @@ footer {
     margin-top: -4px;
     padding-top: 4%;
     margin-bottom: 80px;
-    font-family: 'COCOGOOSE', sans-serif;
+    font-family: "Cocogoose", sans-serif;
   }
 
   .pg {
@@ -278,7 +278,7 @@ footer {
 
   .agro-theme {
     text-align: center;
-    font-family: 'COCOGOOSE', sans-serif;
+    font-family: "Cocogoose", sans-serif;
   }
 
   .agro-talk {
@@ -336,6 +336,7 @@ footer {
     margin-top: 50px;
     margin-left: -7px;
     margin-bottom: -10px;
+    color: #fff;
   }
 
   .footer-img {

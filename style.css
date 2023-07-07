@@ -1,9 +1,13 @@
 @import url('https://fonts.cdnfonts.com/css/cocogoose');
 @import url("https://fonts.googleapis.com/css?family=Lato");
 
+* {
+  font-family: "Lato", sans-serif;
+}
+
 .paragraph {
   font-family: "Lato", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 200;
   line-height: 17px;
   letter-spacing: -0.01em;
@@ -14,13 +18,13 @@
 
 .theme {
   color: #ec5242;
-  font-family: 'COCOGOOSE', sans-serif;
-  font-size: 31px;
+  font-family: "Cocogoose", sans-serif;
+  font-size: 23px;
 }
 
 .date {
   font-family: "Lato", sans-serif;
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 900;
   letter-spacing: -0.08em;
   text-align: left;
@@ -49,7 +53,7 @@
 .mainP {
   height: 17px;
   gap: 15px;
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: "Cocogoose", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -84,7 +88,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: "Cocogoose", sans-serif;
   font-size: 11px;
   font-weight: 700;
   line-height: 25px;
@@ -131,8 +135,8 @@
 }
 
 .greetings {
-  font-family: 'COCOGOOSE', sans-serif;
-  font-size: 20px;
+  font-family: "Cocogoose", sans-serif;
+  font-size: 18px;
   color: #e25240;
 }
 
@@ -152,7 +156,7 @@
 
 .spker {
   text-align: center;
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: "Cocogoose", sans-serif;
 }
 
 .spk-container {
@@ -306,7 +310,7 @@ footer {
 
   .theme {
     font-size: 50px;
-    font-family: 'COCOGOOSE', sans-serif;
+    font-family: "Cocogoose", sans-serif;
     width: 52%;
   }
 
@@ -344,7 +348,7 @@ footer {
   .mainP {
     height: 17px;
     gap: 15px;
-    font-family: 'COCOGOOSE', sans-serif;
+    font-family: "Cocogoose", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
@@ -368,7 +372,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-family: 'COCOGOOSE', sans-serif;
+    font-family: "Cocogoose", sans-serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 25px;
@@ -405,7 +409,7 @@ footer {
   }
 
   .greetings {
-    font-family: 'COCOGOOSE', sans-serif;
+    font-family: "Cocogoose", sans-serif;
     font-size: 35px;
     color: #ec5242;
   }
